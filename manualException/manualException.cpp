@@ -8,4 +8,8 @@ int main()
 		throw 0.5; //melemparkan sebuah integer maka
 		cout << "Pernyataan tidak akan dieksekusi" << endl;
 	}
+	cath (int a) {
+		//blok ini akan dieksekusi
+		cout << "Pengecualian akan dieksekusi" << endl;
+	}
 }
